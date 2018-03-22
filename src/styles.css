@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.fullheight {
+  height: 100% !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
