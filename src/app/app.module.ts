@@ -3,16 +3,19 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { LaunchComponent } from './views/launch/launch.component';
+import {GlobalService} from "./services/global.service";
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LaunchComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [GlobalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
