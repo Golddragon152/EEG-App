@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {GlobalService} from "../../services/global.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-launch',
@@ -8,9 +9,12 @@ import {GlobalService} from "../../services/global.service";
 })
 export class LaunchComponent implements OnInit {
 
-  constructor(public globalService: GlobalService) { }
+  constructor(public globalService: GlobalService,
+              private router: Router) {
+  }
 
   ngOnInit() {
+    this.router.navigate(['/home']);
   }
 
 }

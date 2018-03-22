@@ -7,12 +7,18 @@ import { LaunchComponent } from './views/launch/launch.component';
 import {GlobalService} from "./services/global.service";
 import {RouterModule} from "@angular/router";
 import {ROUTES} from "./app.routes";
+import { HomeComponent } from './views/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LaunchComponent
+    LaunchComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
