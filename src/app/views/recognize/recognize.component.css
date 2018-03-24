@@ -7,3 +7,14 @@
 .selection {
   margin-top: 8rem;
 }
+
+.selection ul.stepper .step-title:hover {
+  background: none;
+}
+
+.selection .stepper:not(.horizontal) .step.active::before,
+.selectionul .stepper:not(.horizontal) .step.done::before,
+.selectionul .stepper.horizontal .step.active .step-title::before,
+.selectionul .stepper.horizontal .step.done .step-title::before {
+  background-color: #66BB6A;
+}

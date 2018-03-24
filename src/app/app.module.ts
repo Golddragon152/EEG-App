@@ -11,6 +11,7 @@ import {HomeComponent} from './views/home/home.component';
 import {HeaderComponent} from './components/header/header.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {RecognizeComponent} from './views/recognize/recognize.component';
+import { StepOneComponent } from './components/step-one/step-one.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {RecognizeComponent} from './views/recognize/recognize.component';
     HeaderComponent,
     FooterComponent,
     RecognizeComponent,
+    StepOneComponent,
   ],
   imports: [
     BrowserModule,
